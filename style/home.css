@@ -49,15 +49,16 @@ h1 {
   height: 40px;
 }
 
-.Eml {
+.link {
   position: absolute;
-  left: 0;
   top: 10px;
 }
 
+.Eml {
+  left: 0;
+}
+
 .data-live{
-  position: absolute;
   right: 0;
-  top: 10px;
 }
 /* Footer */
