@@ -16,6 +16,7 @@ body {
   color: #000;
   height: 115px;
   font-size: 18px;
+  margin-bottom: 50px;
 }
 
 ul, li, ol {
@@ -46,7 +47,7 @@ header {
 
 nav {
   background-color: rgb(85, 85, 85);
-  box-shadow: 0px 15px 35.26px 7.74px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 7px 14px 0.12px rgba(0, 0, 0, 0.29);
   padding: 20px 20px;
 }
 
@@ -58,7 +59,7 @@ ul {
 /* Content */
 section {
   width: 100%;
-  box-shadow: 0px 15px 35.26px 7.74px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 7px 19px -3px rgba(0, 0, 0, 0.29);
   border-radius: 5px;
   min-height: 70vh;
 }
@@ -66,9 +67,13 @@ section {
 
 /* Footer */
 footer {
+  position: fixed;
   background-color: rgb(85, 85, 85);
   padding: 10px;
-  margin-top: 30px;
+  margin-bottom: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
   color: #fff;
 }
