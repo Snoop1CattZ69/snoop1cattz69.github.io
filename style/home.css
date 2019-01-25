@@ -37,6 +37,14 @@ h1 {
   padding-top: 5px;
 }
 
+h2{
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+  font-style: italic;
+}
+
 .content {
   padding: 10px 35px;
 }
