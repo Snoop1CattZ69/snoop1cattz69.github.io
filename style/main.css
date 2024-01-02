@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(90deg, rgb(60, 0, 60) 0%, rgb(50, 0, 50) 35%, rgb(20, 0, 20) 100%);
+}
+
+div {
+  height: 0px;
+}
+
+.maintenance {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 50%);
+  font-family: "Space Mono";
+  font-size: 4vw;
+  color: white;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 2px #000000, 0 0 3px #30033d, 0 0 4px #410454, 0 0 5px #580670, 0 0 6px #6a0788, 0 0 7px #8709ad, 0 0 8px #9a0ac5;
+  }
+  to {
+    text-shadow: 0 0 4px #ffffff, 0 0 6px #8916bf, 0 0 8px #2279dd, 0 0 10px #234cd3, 0 0 12px #224cd7, 0 0 14px #77c8f3, 0 0 16px #db10e2;
+  }
+}
